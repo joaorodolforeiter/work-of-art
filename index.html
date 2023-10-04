@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <img src="/img/carteiro.png" class="carteiro" alt="" />
+
+      <fieldset class="main-fieldset">
+        <legend>Cadastro Geral</legend>
+        <div class="side-by-side">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+            <img src="/img/corpo.png" class="corpo" alt="" />
+            <label for="nome">Nome completo:</label><br />
+            <input type="text" name="nome" id="nome" /><br />
+            <label for="profissao">Profissão:</label><br />
+            <select name="profissao" id="profissao">
+              <option value="">Padeiro</option>
+              <option value="">Ninja</option>
+              <option value="">Presidente da republica</option>
+            </select>
+          </fieldset>
+          <fieldset>
+            <legend>Localização</legend>
+            <img src="/img/earth.png" class="corpo" alt="" />
+            <label for="email">E-mail:</label><br />
+            <input type="email" name="email" id="email" /><br />
+            <label for="rua">Rua:</label><br />
+            <input type="text" name="rua" id="rua" />
+          </fieldset>
+        </div>
+        <fieldset class="age-fieldset">
+          <legend>Faixa etária</legend>
+          <img src="/img/roller.png" class="roller" alt="" />
+          <div>
+            <input type="radio" name="" id="" />
+            <label for="">até 20 anos</label><br />
+            <input type="radio" name="" id="" />
+            <label for="">mais de 20 anos até 30 anos</label><br />
+            <input type="radio" name="" id="" />
+            <label for="">mais de 30 anos até 40 anos</label>
+          </div>
+          <div>
+            <input type="radio" name="" id="" />
+            <label for="">mais de 40 anos até 50 anos</label><br />
+            <input type="radio" name="" id="" />
+            <label for="">mais de 50 anos até 60 anos</label><br />
+            <input type="radio" name="" id="" />
+            <label for="">mais de 60 anos</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Esportes que pratica</legend>
+          <img src="/img/woman.png" class="woman" alt="" />
+          <input type="checkbox" name="" id="" />
+          <label for="">até 20 anos</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">mais de 20 anos até 30 anos</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">mais de 30 anos até 40 anos</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">mais de 40 anos até 50 anos</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">mais de 50 anos até 60 anos</label><br />
+          <input type="checkbox" name="" id="" />
+          <label for="">mais de 60 anos</label>
+        </fieldset>
+      </fieldset>
+      <fieldset class="comment-fieldset">
+        <img src="/img/sus.png" class="woman" alt="" />
+        <legend>Comentario</legend>
+        <label for="">Mensagem:</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+      <div class="buttons">
+        <input type="submit" value="Enviar" /><input
+          type="reset"
+          value="Limpar"
+        />
+      </div>
+    </form>
+  </body>
+</html>

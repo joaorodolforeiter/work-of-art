@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0faf1;
+  display: flex;
+  justify-content: center;
+  color: #568d56;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  width: 720px;
+  border: 2px solid #bcd8c1;
+  padding: 48px 16px 10px 72px;
+}
+
+fieldset {
+  border: 2px solid #bcd8c1;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.main-fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.age-fieldset {
+  display: flex;
+}
+
+.age-fieldset div {
+  width: 100%;
+}
+
+.comment-fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  background: #fefdfa;
+  border: 2px solid #bcc8be;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.side-by-side fieldset {
+  width: 48%;
+}
+
+input {
+  border: 2px solid #7a967d;
+  margin-bottom: 8px;
+}
+
+label {
+  padding-top: 12px;
+  padding-bottom: 2px;
+}
+
+textarea {
+  width: 400px;
+  height: 160px;
+  border: 2px solid #7a967d;
+}
+
+.buttons {
+  margin-top: 12px;
+  margin-left: 4px;
+}
+
+.buttons input {
+  background-color: #fffeff;
+  margin-right: 4px;
+}
+
+.carteiro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 120px;
+  opacity: 50%;
+}
+
+.corpo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 120px;
+  opacity: 50%;
+}
+
+.roller {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 100px;
+  opacity: 50%;
+}
+
+.woman {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 150px;
+  opacity: 50%;
+}
